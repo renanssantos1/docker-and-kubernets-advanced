@@ -1,0 +1,17 @@
+FROM node:14-alpine
+
+WORKDIR '/app'
+
+COPY package.json .
+RUN npm install 
+
+COPY . .
+
+CMD ["npm", "start"]
+
+
+# Para executar o react dentro de um docker temos que
+# Mapear as pastas que estao dentro do container e servi-las como um volume para
+# fora 
+# comando : 
+# docker run -p <porta_computador>:3000 -v /<workdir_variable>/node_modules -v $(pwd):/app   
