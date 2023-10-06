@@ -4,6 +4,7 @@ const express = require('express')
 const bodyParser  = require('body-parser')
 const cors = require('cors')
 const {Pool} = require('pg')
+const redis = require('redis')
 
 const app = express()
 app.use(cors())
@@ -23,3 +24,13 @@ pgClient.on("connect", (client) => {
       .query("CREATE TABLE IF NOT EXISTS values (number INT)")
       .catch((err) => console.error(err));
 });
+
+const redisClient = redis.createClient({
+    host: keys.redisHost,
+    port: keys.redisPort,
+    retry_strategy: () => 1000
+})
+
+const redisPublisher = redisClient.duplicate() 
+
+// Express route handlers
