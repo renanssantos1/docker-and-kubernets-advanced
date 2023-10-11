@@ -1,6 +1,6 @@
 ## API Multi container
 
-###Projeto criado para testar como funciona o deploy de  maquinas sendo elas: 
+## Projeto criado para testar como funciona o deploy de  maquinas sendo elas: 
 
 Nginx: Responsavel pelo proxy do backend e do frontend
 Server: Aplicação feita em nodejs e express
@@ -17,6 +17,6 @@ O cunho central é entender como o Docker + TravisCI + AWS é possivel montar um
 - [x] Travis CI Test Image --coverage application (React or Nodejs)
 - [x] Travis CI Build Image Docker Production
 - [x] Travis CI Push project to Docker/Hub
-- []  AWS EB - Pull Docker Image 
+- [ ]  AWS EB - Pull Docker Image 
 
 Utilizando a estratégia acima podemos retirar a resposabilidade da maquina da AWS e deixa-la somente para puxar o ambiente já pronto diretamente, do nosso dockerhub pessoal. Pois o tempo de build é equivalente a 6 minutos ou até mais, logo se o ambiente de produção efetuar somente o pull das alterações o tempo cai drasticamente  e a alteração é instantânea.
