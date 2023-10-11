@@ -2,12 +2,12 @@
 
 ## Projeto criado para testar como funciona o deploy de  maquinas sendo elas: 
 
-Nginx: Responsavel pelo proxy do backend e do frontend
-Server: Aplicação feita em nodejs e express
-PG: Banco de dados postgress (persistencia de dados)
-Redis: Cache de valores Inputados pelo frontend
-Worker: Responsavel por realizar os calculos do redis
-Client: Frontend React simples somente para visualização de dados.
+1. Nginx: Responsavel pelo proxy do backend e do frontend
+2. Server: Aplicação feita em nodejs e express
+3. PG: Banco de dados postgress (persistencia de dados)
+4. Redis: Cache de valores Inputados pelo frontend
+5. Worker: Responsavel por realizar os calculos do redis
+6. Client: Frontend React simples somente para visualização de dados.
 
 O cunho central é entender como o Docker + TravisCI + AWS é possivel montar uma pipeline de desenvolvimento + deploy e em quanto tempo e custo demora para essa tarefa ficar em ambiente de produção. A estratégia usada foi.
 
