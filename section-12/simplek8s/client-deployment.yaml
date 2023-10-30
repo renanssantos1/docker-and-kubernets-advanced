@@ -4,16 +4,16 @@ metadata:
   name: client-deployment
 spec:
   replicas: 1
-  selector: 
-    metchLabels:
+  selector:
+    matchLabels:
       component: web
-  template:    
+  template:
     metadata:
       labels:
         component: web
-    spec: 
+    spec:
       containers:
         - name: client
-          image: stephengrider/multi-client 
+          image: renansantos01/multi-client
           ports:
-            - containerPort: 3000     
+            - containerPort: 3000
