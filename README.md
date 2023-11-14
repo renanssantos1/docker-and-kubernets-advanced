@@ -1,12 +1,19 @@
 ### Docker and Kubernets Advanced Curse
 
-Esse projeto tem __cunho estudantil__ e esta divido em sessoes, de acordo com o curso foram criados outros repositorio em outro canal, para aplicar o exercicios e tambem __praticar__ oque foi ministrado em aula.
+Respositorio para estudos de uma esteira Devops, a ideia é aprender como funciona as tecnologias, abaixo.
 
 __Configurações__
-    - Docker 🐳
-    - Kubernets ☸️
-    - AWS and GCP
-    - NodeJS 🦄
-    - ReactJS  😃
-    - Redis
-    - Postgres
+
+<div>
+  <img align="left" width="40" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original-wordmark.svg" />
+  <img align="left" width="40" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg" />
+  <img align="left" width="40" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" />
+  <img align="left" width="40" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg" />
+  <img align="left" width="40" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg" />
+  <img align="left" width="40" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" />
+  <img align="left" width="40" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg" />
+  <img align="left" width="40" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" />
+</div>
+
+<p>Para mais informações consultar o link</p>
+![Link do curso](https://www.udemy.com/course/docker-and-kubernetes-the-complete-guide/)
