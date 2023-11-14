@@ -1,5 +1,6 @@
 ### Docker and Kubernets Advanced Curse
 
+
 Respositorio para estudos de uma esteira Devops, a ideia é aprender como funciona as tecnologias, abaixo.
 
 __Configurações__
