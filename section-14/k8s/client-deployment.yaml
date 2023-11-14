@@ -16,4 +16,4 @@ spec:
         - name: client
           image: renansantos01/multi-client
           ports:
-          - containerPort: 3000     
+            - containerPort: 3000     
